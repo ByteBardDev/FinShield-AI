@@ -1,0 +1,27 @@
+{
+  "test_metrics_threshold_0.5": {
+    "precision": 0.8181818181818182,
+    "recall": 0.826530612244898,
+    "f1": 0.8223350253807107,
+    "roc_auc": 0.9780484119646733,
+    "pr_auc": 0.8624890396003217,
+    "confusion_matrix": [
+      [
+        56846,
+        18
+      ],
+      [
+        17,
+        81
+      ]
+    ]
+  },
+  "best_params": {
+    "clf__n_estimators": 200,
+    "clf__max_depth": 9,
+    "clf__learning_rate": 0.05
+  },
+  "cv_best_score": 0.8478504349272559,
+  "n_train": 227845,
+  "n_test": 56962
+}
