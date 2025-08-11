@@ -1,0 +1,13 @@
+pandas
+numpy
+scikit-learn
+imblearn
+xgboost
+shap
+matplotlib
+seaborn
+streamlit
+joblib
+
+# Optional: for nicer progress bars
+tqdm
