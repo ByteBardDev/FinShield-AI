@@ -45,28 +45,7 @@ Features: 30 anonymized features (V1–V28, Time, Amount)
 
 Fraud cases: 492 (highly imbalanced)
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
-bash
-Copy
-Edit
-git clone https://github.com/your-username/FinShieldAI.git
-cd FinShieldAI
-2️⃣ Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Download dataset & model
-Download creditcard.csv from Kaggle and place it in the data/ folder.
 
-Ensure model.joblib and scaler.joblib are present in artifacts/.
-
-4️⃣ Run the app
-bash
-Copy
-Edit
-streamlit run app.py
 🧠 How It Works
 Preprocessing – Data is scaled using StandardScaler.
 
